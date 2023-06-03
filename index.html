@@ -2,41 +2,63 @@
 <html>
 <head>
   <title>My Resume</title>
-  <style>
-    /* Add your custom CSS styles here */
-    /* For example: */
-    body {
-      font-family: Arial, sans-serif;
-    }
-    
-    h1 {
-      color: #b91212;
-    }
-    
-    .pdf-container {
-      width: 100%;
-      height: 800px; /* Adjust the height as needed */
-    }
-  </style>
 </head>
 <body>
-  <h1>Dongshen Wang</h1>>
+  <h1>Dongshen Wang</h1>
+  <ul class = "horizontal-list">
+      <li>3110 Richview Blvd, Oakville, ON, Canada</li>
+      <li>905 466 4091</li>
+      <li><a href="dwshen2023@gmail.com">dwshen2023@gmail.com</a></li>
+    </ul>
   <hr>
-  <div>
-    <ul class = "horizontal-list">
-      <li>3110 Richview Blvd, Oakville, ON, Canada</li>>
-      <li>905 466 4091</li>>
-      <li><a href="dwshen2023@gmail.comdwshen2023@gmail.com"></a></li>>
-    </ul>>
 
-  </div>
-  <h2>SUMMARY</h2>
-  <hr>
-  <p>Computer engineering graduate with industry experience in web development and tesing. Strong passion for learning and self-improvement
-  </p>
-  <ul>
-    <li class = "bullet-point">Programming languages: C, Python, Java, C#, Swift, TypeScript</li>
-    <li clsss = "bullet-point">Tools: Angular, Xcode, Ubuntu CLI, Docker, Git, SwiftUI, Andorid Studio<li>
+  <div class = "section">
+    <h2>SUMMARY</h2>
+    <hr>
+    <p>Computer engineering graduate with industry experience in web development and tesing. Strong passion for learning and self-improvement
+    </p>
+    <ul>
+      <li class = "bullet-point">Programming languages: C, Python, Java, C#, Swift, TypeScript</li>
+      <li clsss = "bullet-point">Tools: Angular, Xcode, Ubuntu CLI, Docker, Git, SwiftUI, Andorid Studio</li>
     </ul> 
+  </div>
+
+  <div class = "section">
+    <h2>EXPERIENCE</h2>
+    <hr>
+    <div class = "experience-sub-section">
+      <div class = "left-right-aligned-sentence">
+        <p>Transport Canada</p>
+        <p>Ottawa, ON</p>
+      </div>
+      <div class = "left-right-aligned-sentence">
+        <p>RPA developer</p>
+        <p>May 2022 - March 2023</p>
+      </div>
+      <ul>
+        <li class = "bullet-point">Collaborated in client meetings to collect workflow requirements and propose automated processes to help
+          improve workflow efficiency.</li>
+        <li clsss = "bullet-point">Developed a UiPath bot that can upload scanned files through an online portal. Successfully uploaded more
+          than 4000 files and reduced 133 hours of repetitive manual tasks.</li>
+        <li>Demonstrated an automated process’s functionality and presented its business value during the
+          department’s monthly tech day.</li>
+      </ul>
+    </div>
+    <div class = "experience-sub-section">
+      <div class = "left-right-aligned-sentence">
+        <p>Mitel Networks Corporation</p>
+        <p>Ottawa, ON</p>
+      </div>
+      <div class = "left-right-aligned-sentence">
+        <p>E2E Automation Tester</p>
+        <p>Sept 2021 - Dec 2021</p>
+      </div>
+      <ul>
+        <li class = "bullet-point">Built end-to-end test case with Protractor automation framework to ensure the PBX API phone dial feature’s function correctness and robustness.</li>
+        <li clsss = "bullet-point">Ran automation testing with AWS to reduce wait time and used the Cloudwatch to capture test results.</li>
+      </ul>
+    </div>
+  </div>
+  
 </body>
 </html>
