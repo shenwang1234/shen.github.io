@@ -1,0 +1,4 @@
+.left-right-aligned-sentence {
+display: flex;
+justify-content: space-between;
+}
