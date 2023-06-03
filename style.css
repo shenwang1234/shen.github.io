@@ -2,3 +2,10 @@
 display: flex;
 justify-content: space-between;
 }
+
+.container {
+    margin-top: 10vh;
+    display: block;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
