@@ -1,64 +1,147 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="style.css">
   <title>My Resume</title>
 </head>
+
 <body>
-  <div class = "container">
-  <h1>Dongshen Wang</h1>
-  <p class = "horizontal-list">
-      3110 Richview Blvd, Oakville, ON, Canada • 905 466 4091 • dwshen2023@gmail.com
-  </p>
-  <hr>
-
-  <div class = "section">
-    <h2>SUMMARY</h2>
-    <hr>
-    <p>Computer engineering graduate with industry experience in web development and tesing. Strong passion for learning and self-improvement
+  <div class="container">
+    <h1>Dongshen Wang</h1>
+    <p class="horizontal-list">
+      <center>3110 Richview Blvd, Oakville, ON, Canada • 905 466 4091 • dwshen2023@gmail.com
+      </center>
     </p>
-    <ul>
-      <li class = "bullet-point">Programming languages: C, Python, Java, C#, Swift, TypeScript</li>
-      <li clsss = "bullet-point">Tools: Angular, Xcode, Ubuntu CLI, Docker, Git, SwiftUI, Andorid Studio</li>
-    </ul> 
-  </div>
-
-  <div class = "section">
-    <h2>EXPERIENCE</h2>
     <hr>
-    <div class = "experience-sub-section">
-      <div class = "left-right-aligned-sentence">
-        <span>Transport Canada</span>
-        <span>Ottawa, ON</span>
-      </div>
-      <div class = "left-right-aligned-sentence">
-        <p>RPA developer</p>
-        <p>May 2022 - March 2023</p>
-      </div>
+    <div class="section" id="summary">
+      <h2>SUMMARY</h2>
+      <hr>
+      <p>Computer engineering graduate with industry experience in web development and tesing. Strong passion for
+        learning and self-improvement
+      </p>
       <ul>
-        <li class = "bullet-point">Collaborated in client meetings to collect workflow requirements and propose automated processes to help
-          improve workflow efficiency.</li>
-        <li clsss = "bullet-point">Developed a UiPath bot that can upload scanned files through an online portal. Successfully uploaded more
-          than 4000 files and reduced 133 hours of repetitive manual tasks.</li>
-        <li>Demonstrated an automated process’s functionality and presented its business value during the
-          department’s monthly tech day.</li>
+        <li class="bullet-point">Programming languages: C, Python, Java, C#, Swift, TypeScript</li>
+        <li clsss="bullet-point">Tools: Angular, Xcode, Ubuntu CLI, Docker, Git, SwiftUI, Andorid Studio</li>
       </ul>
     </div>
-    <div class = "experience-sub-section">
-      <div class = "left-right-aligned-sentence">
-        <p>Mitel Networks Corporation</p>
-        <p>Ottawa, ON</p>
+
+    <div class="section" id="experience">
+      <h2>EXPERIENCE</h2>
+      <hr>
+      <div class="experience-sub-section">
+        <div class="left-right-aligned-sentence">
+          <span>Beijing Spirit Technology Development Co.</span>
+          <span>Beijing, China</span>
+        </div>
+        <div class="left-right-aligned-sentence">
+          <span>Embedded engineer</span>
+          <span>April 2023 - May 2023</span>
+        </div>
+        <ul>
+          <li class="bullet-point">Collaborated with senior engineers on modifying existing circuit schematic and PCB
+            layout for MCU migration with built-in Bluetooth module to cut material cost.</li>
+          <li clsss="bullet-point">Developed GPIO and Bluetooth unit tests using manufacturer provided SDK to ensure
+            proper functionality of the prototype board.</li>
+          <li>Demonstrated an automated process’s functionality and presented its business value during the
+            department’s monthly tech day.</li>
+          <li>Modified the printhead C module and successfully implemented full-step functionality for the stepper
+            motor, enabling full-step in both directions.
+          </li>
+        </ul>
       </div>
-      <div class = "left-right-aligned-sentence">
-        <p>E2E Automation Tester</p>
-        <p>Sept 2021 - Dec 2021</p>
+      <div class="experience-sub-section">
+        <div class="left-right-aligned-sentence">
+          <span>Transport Canada</span>
+          <span>Ottawa, ON</span>
+        </div>
+        <div class="left-right-aligned-sentence">
+          <span>RPA developer</span>
+          <span>May 2022 - March 2023</span>
+        </div>
+        <ul>
+          <li class="bullet-point">Collaborated in client meetings to collect workflow requirements and propose
+            automated processes to help
+            improve workflow efficiency.</li>
+          <li clsss="bullet-point">Developed a UiPath bot that can upload scanned files through an online portal.
+            Successfully uploaded more
+            than 4000 files and reduced 133 hours of repetitive manual tasks.</li>
+          <li>Demonstrated an automated process’s functionality and presented its business value during the
+            department’s monthly tech day.</li>
+        </ul>
       </div>
-      <ul>
-        <li class = "bullet-point">Built end-to-end test case with Protractor automation framework to ensure the PBX API phone dial feature’s function correctness and robustness.</li>
-        <li clsss = "bullet-point">Ran automation testing with AWS to reduce wait time and used the Cloudwatch to capture test results.</li>
-      </ul>
+      <div class="experience-sub-section">
+        <div class="left-right-aligned-sentence">
+          <span>Mitel Networks Corporation</span>
+          <span>Ottawa, ON</span>
+        </div>
+        <div class="left-right-aligned-sentence">
+          <span>E2E Automation Tester</span>
+          <span>Sept 2021 - Dec 2021</span>
+        </div>
+        <ul>
+          <li class="bullet-point">Built end-to-end test case with Protractor automation framework to ensure the PBX API
+            phone dial feature’s function correctness and robustness.</li>
+          <li clsss="bullet-point">Ran automation testing with AWS to reduce wait time and used the Cloudwatch to
+            capture test results.</li>
+        </ul>
+      </div>
     </div>
-  </div>
+
+    <div class="section" id="project">
+      <h2>PROJECT</h2>
+      <hr>
+      <div class="project-sub-section">
+        <div class="left-right-aligned-sentence">
+          <span>KEYME</span>
+          <span>Sept 2022 - Dec 2022</span>
+        </div>
+        <ul>
+          <li class="bullet-point">Collaborated with three students in capstone project aimed to improve new pianist
+            learning experience with
+            a product that provides interactive lighting, playback, and recording feature. </li>
+          <li clsss="bullet-point">Implemented a DSP function using FFT and autocorrelation from Python’s Scipy library,
+            achieving realtime detection of single notes with 98% accuracy.</li>
+        </ul>
+      </div>
+      <div class="project-sub-section">
+        <div class="left-right-aligned-sentence">
+          <span>Intelligent distribution panel simulation</span>
+          <span>Sept 2021 - Dec 2021</span>
+        </div>
+        <ul>
+          <li class="bullet-point">CLed a group of 6 in a project-based course as scrum master, managed weekly scrums,
+            unit and integration
+            test following test procedures and sprint documents provided by the professor.</li>
+          <li clsss="bullet-point">Developed and tested relay timer and continuous data analysis and acquisition module
+            using C and Sitara
+            MCU SDK. Achieved final project grade of 94/100. </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section" id="education">
+      <h2>EDUCATION</h2>
+      <hr>
+      <div class="education-sub-section">
+        <div class="left-right-aligned-sentence">
+          <span>University of Ottawa</span>
+          <span>Third- and fourth-year GPA: 3.7/4</span>
+        </div>
+        <div class="left-right-aligned-sentence">
+          <span>Bachelor of Applied Science – Computer Engineering </span>
+          <span>Graduation date: Jan 2023</span>
+        </div>
+        <ul>
+          <li class="bullet-point">2020 & 2022 Dean’s list honours student </li>
+          <li clsss="bullet-point">Related Courses: Higher Layer Network Protocol, Data structure and algorithm, Digital
+            System, Computer
+            System Design, Operating System, Computer Architecture, Real-time System Design </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 </body>
+
 </html>
