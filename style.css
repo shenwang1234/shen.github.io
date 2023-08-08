@@ -4,6 +4,7 @@ justify-content: space-between;
 }
 
 .container {
+    background-color: burlywood;
     margin-top: 10vh;
     display: block;
     margin-left: 20vw;
